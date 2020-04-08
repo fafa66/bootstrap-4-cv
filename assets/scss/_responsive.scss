@@ -1,0 +1,21 @@
+@media screen and (max-width:600px){
+    .vignette{
+        width:7rem;height:7rem;
+    }
+.vignette.active{width:10rem;height:10rem;}
+h3{font-size: 2.5em;}
+#presentation{display:none;}
+.menu-hamburger{
+    display:block;
+    i &{color:rgb(221, 82, 82);}
+}
+nav{display: none;}}
+
+@media screen and (max-width:320px){
+    .social span{width:2em;height:2em;}
+}
+
+@media screen and (min-width:320px) and (max-width:600px){
+    .nav{flex-direction: column;}
+    h3{font-size: 2em;}
+}
